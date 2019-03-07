@@ -4,7 +4,7 @@
     var el = $(this);
 
     $(options.scrollEl).animate({
-      scrollTop: el.offset().top - $(options.scrollEl).offset().top - options.offset - 160
+      scrollTop: el.offset().top - $(options.scrollEl).offset().top - options.offset
     }, options.speed, options.ease, function() {
       var hash = el.attr('id');
 
