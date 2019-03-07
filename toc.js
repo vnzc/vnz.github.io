@@ -128,7 +128,7 @@ $.fn.toc = function(options) {
 jQuery.fn.toc.defaults = {
   container: 'body article.post',
   listType: '<ul/>',
-  selectors: 'h2',
+  selectors: 'h1,h2,h3',
   smoothScrolling: function(target, options, callback) {
     $(target).smoothScroller({
       offset: options.scrollToOffset
