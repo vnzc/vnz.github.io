@@ -1,0 +1,8 @@
+Beautify
+HTML CSS Support
+HTML Snippets
+IntelliSense for CSS
+jQuery Code Snippets
+jQuery Snippets
+Team Chat: for Slack
+VS Live Share
